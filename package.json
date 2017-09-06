@@ -42,8 +42,8 @@
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:css": "tachyons src/tackyons.css > css/tachyons.css && mv css/tachyons.css css/tackyons.css",
+    "build:minify": "tachyons src/tackyons.css -m > css/tachyons.min.css && mv css/tachyons.min.css css/tackyons.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }

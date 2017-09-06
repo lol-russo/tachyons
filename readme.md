@@ -2,7 +2,7 @@
 
 Functional css for one specific human.
 
-A trimmed down and hacked up version of the wonderful [Tachyons](https://github.com/tachyons-css/tachyons/) that suits my needs and preferences so I can quickly build and design new UI without writing css.
+A trimmed down and hacked up version of the wonderful [Tachyons](https://github.com/tachyons-css/tachyons/) that suits my needs and preferences.
 
 ### Local Setup
 
@@ -16,7 +16,7 @@ npm install
 
 #### Dev
 
-Compile all of your wonderful changes by running
+Compile all of your changes by running
 
 ```npm start```
 
